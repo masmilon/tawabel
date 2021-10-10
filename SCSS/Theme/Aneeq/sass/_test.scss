@@ -1,0 +1,31 @@
+// Breakpoints
+$breakpoints-down: (
+  "small": "320px",
+  "medium": "375px",
+  "large": "425px",
+  "tablet": "767px",
+);
+
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoints-down, $size)) {
+    @content;
+  }
+}
+
+// Codes
+.media {
+  background-color: red;
+  font-size: 1.3rem;
+}
+
+.h2 {
+  @include breakpoint-down(large) {
+    background-color: blueviolet;
+  }
+  @include breakpoint-down(medium) {
+    background-color: yellow;
+  }
+  @include breakpoint-down(small) {
+    background-color: blue;
+  }
+}

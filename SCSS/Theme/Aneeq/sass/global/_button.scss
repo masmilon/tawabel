@@ -1,0 +1,61 @@
+.home .quick-add,
+.products-archive-container .quick-add {
+  font-size: unset !important;
+  line-height: 2.5 !important;
+  border-radius: 10px !important;
+  height: 42px !important;
+  padding: 0 !important;
+  width: unset !important;
+  background-color: $color-secondary-light !important;
+
+  a {
+    line-height: unset !important;
+    bottom: 0 !important;
+  }
+
+  .icon-cart-plus::before {
+    content: "أضف إلى السلة";
+    font-size: 15px;
+    font-family: "Cairo", "Effra-R", sans-serif;
+    color: white;
+    border-radius: 10px;
+    padding: 6px 29px;
+
+    @include bm0 {
+      font-size: 14px;
+    }
+  }
+}
+
+.home {
+  .section-recent-products .a-link {
+    color: white !important;
+    text-decoration: none;
+    background-color: $color-secondary-dark;
+    border-radius: 5px;
+    padding: 0px 15px;
+    display: inline-block;
+
+    text-align: center;
+    margin: -3px auto 0 auto;
+
+    @include mobile {
+      font-size: 1.25rem !important;
+      top: 155px;
+      width: 50%;
+    }
+    @include computer {
+      font-size: 1.5rem !important;
+      bottom: 50px;
+      width: 200px;
+    }
+
+    &:hover {
+      background-color: $color-secondary-dark;
+    }
+    &:active {
+      background-color: $color-main-light;
+      transform: translateY(-2px);
+    }
+  }
+}

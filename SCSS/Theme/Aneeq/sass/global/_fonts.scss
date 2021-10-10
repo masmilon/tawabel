@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+
+// Changing Fonts
+
+html,
+body,
+nav.nav.main > ul > li > a,
+.block-title h1,
+.block-title h2,
+h1,
+h2,
+h3,
+h4,
+h5,
+.btn {
+  font-family: $myFonts;
+}
+
+nav.nav.main > ul > li > a {
+  font-weight: 400;
+}
+
+.block-title h1,
+.block-title h2 {
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+}
+
+.btn {
+  font-weight: 600;
+}
+
+.product-entry > div.entry-meta .entry-price span {
+  font-family: $myFonts;
+  font-weight: 600;
+}
+
+.product-entry > div.entry-meta .entry-price span.old {
+  font-family: $myFonts;
+  font-weight: 400;
+}
+
+.notification-bar p {
+  font-family: $myFonts;
+  font-weight: 400;
+}

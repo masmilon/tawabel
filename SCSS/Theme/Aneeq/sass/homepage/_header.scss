@@ -1,0 +1,42 @@
+@include mobile {
+  header .header-top {
+    height: 103px;
+
+    [href="/cart/view"] {
+      margin-top: 10px;
+    }
+  }
+
+  .logo-img-unviel {
+    height: 260% !important;
+    bottom: -26px !important;
+    position: absolute !important;
+    right: 65px !important;
+
+    @include computer {
+      height: 165% !important;
+      bottom: -18px !important;
+    }
+  }
+
+  // Logo container
+  header .header-top-new {
+    height: 45px;
+  }
+
+  // Logo image
+  .logo-img-unviel-new {
+    height: 115% !important;
+    bottom: -3px !important;
+    right: 95px !important;
+
+    @include computer {
+      height: 65% !important;
+      bottom: 7px !important;
+    }
+  }
+
+  main {
+    margin-top: 55px;
+  }
+}

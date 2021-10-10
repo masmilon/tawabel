@@ -1,0 +1,167 @@
+// Changing only affect on same or down screen
+$breakpoints-down: (
+  "small": "320px",
+  "medium": "375px",
+  "large": "425px",
+  "tablet": "768px",
+  "laptop": "1024px",
+  "laptopL": "1440px",
+  "4k": "2560px",
+);
+
+// Changing only affect on same or upper screen
+$breakpoints-up: (
+  "small": "320px",
+  "medium": "375px",
+  "large": "425px",
+  "tablet": "768px",
+  "laptop": "1024px",
+  "laptopL": "1440px",
+  "4k": "2560px",
+);
+
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoints-down , $size)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-up($size) {
+  @media (min-width: map-get($breakpoints-up , $size)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-down-uni($size) {
+  @media (max-width: $size) {
+    @content;
+  }
+}
+@mixin breakpoint-up-uni($size) {
+  @media (max-width: $size) {
+    @content;
+  }
+}
+
+@mixin breakpoint-multiple($min, $max) {
+  @media screen and (max-width: $max) and (min-width: $min) {
+    @content;
+  }
+}
+
+/*
+computer: 490+
+mobile: 489-
+bm8 : 1200-up
+bm7 : 993-1199 // 4 items in a row start from here
+bm6 : 768-990 // 4 items in a row start from here
+bm 5-7: 767 - 740 - Problem
+bm 5-6: 739 - 720 - Problem
+bm 5-5: 719 - 700 - Problem
+bm 5-4: 699 - 680 - Problem
+bm 5-3: 679 - 660 - Problem
+bm 5-2: 659 - 640 - Problem
+bm 5-1: 639 - 620 - Problem
+bm 5: 490 - 767 - Problem
+bm4 : 440-489
+bm3 : 400-439
+bm2 : 370-399
+bm1 : 320-369
+bm0 : 300-319
+*/
+
+@mixin mobile {
+  @media screen and (max-width: 489px) {
+    @content;
+  }
+}
+@mixin computer {
+  @media screen and (min-width: 490px) {
+    @content;
+  }
+}
+
+@mixin bm8 {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin bm7 {
+  @media screen and (max-width: 1199px) and (min-width: 991px) {
+    @content;
+  }
+}
+@mixin bm6 {
+  @media screen and (max-width: 990px) and (min-width: 767px) {
+    @content;
+  }
+}
+
+@mixin bm5-7 {
+  @media screen and (max-width: 766px) and (min-width: 740px) {
+    @content;
+  }
+}
+@mixin bm5-6 {
+  @media screen and (max-width: 739px) and (min-width: 720px) {
+    @content;
+  }
+}
+@mixin bm5-5 {
+  @media screen and (max-width: 719px) and (min-width: 700px) {
+    @content;
+  }
+}
+
+@mixin bm5-4 {
+  @media screen and (max-width: 699px) and (min-width: 680px) {
+    @content;
+  }
+}
+@mixin bm5-3 {
+  @media screen and (max-width: 679px) and (min-width: 660px) {
+    @content;
+  }
+}
+@mixin bm5-2 {
+  @media screen and (max-width: 659px) and (min-width: 640px) {
+    @content;
+  }
+}
+@mixin bm5-1 {
+  @media screen and (max-width: 639px) and (min-width: 620px) {
+    @content;
+  }
+}
+@mixin bm5 {
+  @media screen and (max-width: 490px) and (min-width: 619px) {
+    @content;
+  }
+}
+
+@mixin bm4 {
+  @media screen and (max-width: 489px) and (min-width: 440px) {
+    @content;
+  }
+}
+@mixin bm3 {
+  @media screen and (max-width: 439px) and (min-width: 400px) {
+    @content;
+  }
+}
+@mixin bm2 {
+  @media screen and (max-width: 399px) and (min-width: 370px) {
+    @content;
+  }
+}
+@mixin bm1 {
+  @media screen and (max-width: 369px) and (min-width: 320px) {
+    @content;
+  }
+}
+@mixin bm0 {
+  @media screen and (max-width: 319px) and (min-width: 300px) {
+    @content;
+  }
+}

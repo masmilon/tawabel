@@ -1,0 +1,153 @@
+main.home {
+  @include mobile {
+    //   Product Box
+    .section-featured-products,
+    .section-recent-products {
+      box-shadow: $shadow-3;
+      width: 93%;
+      border-radius: 15px;
+    }
+
+    // Product container
+    #slider-products-featured,
+    #slider-products-recent,
+    #featured-items {
+      margin-bottom: -150px;
+    }
+
+    // Product to see more button gap
+    .slider.products .slick-list {
+      margin-right: -2px;
+      padding-bottom: 0px !important;
+    }
+
+    .section-featured-products,
+    .section-recent-products {
+      margin-bottom: 50px !important;
+      margin-right: auto !important;
+      margin-left: auto !important;
+      margin-top: 0 !important;
+      padding-top: 15px;
+      padding-bottom: 145px;
+    }
+
+    .section-featured-products .container,
+    .section-recent-products .container {
+      padding-left: 10px;
+      margin-right: -7px;
+      margin-left: auto;
+      padding-right: 7px;
+
+      * {
+        transform: translateX(-1.7px);
+      }
+
+      .slick-list {
+        padding: 0px 39px;
+      }
+
+      .block-title {
+        margin-bottom: -25px;
+      }
+    }
+
+    #recent-items .slick-track {
+      padding-bottom: 25px;
+    }
+
+    .section-featured_products_2 .slick-track {
+      margin-bottom: 55px;
+    }
+
+    // Arrow
+    .section-featured-products .container .slick-slider .slick-prev,
+    .section-recent-products .container .slick-slider .slick-prev {
+      margin-right: 9px;
+    }
+    .section-featured-products .container .slick-slider .slick-next,
+    .section-recent-products .container .slick-slider .slick-next {
+      margin-left: -7px;
+    }
+
+    .product-entry.new:before,
+    .product-entry.discount:before,
+    .product-entry.out-of-stock:before {
+      background-color: $color-dicsount-red !important;
+      left: -6px !important;
+    }
+
+    // Discount box
+    .product-entry.new:before,
+    .product-entry.discount:before,
+    .product-entry.out-of-stock:before,
+    .product-low-stock-position {
+      // Change # 1 - Discount box
+
+      @include bm4 {
+        top: 69vw !important;
+      }
+      @include bm3 {
+        top: 67vw !important;
+      }
+      @include bm2 {
+        top: 64.5vw !important;
+      }
+      @include bm1 {
+        top: 62vw !important;
+      }
+      @include bm0 {
+        top: 55vw !important;
+      }
+    }
+
+    // Left right sides of Image
+    .section-featured-products .slick-slide,
+    .section-recent-products .slick-slide {
+      margin-left: 8px;
+    }
+
+    // Change # 2 - Names details of Product Image
+    .product-entry > div.entry-thumb {
+      margin-top: 50px;
+
+      @include breakpoint-multiple(320px, 489px) {
+        margin-bottom: 50px;
+      }
+    }
+
+    .product-entry::after {
+      width: 105%;
+
+      @include bm4 {
+        height: 116vw;
+      }
+      @include bm3 {
+        height: 118vw;
+      }
+      @include bm2 {
+        height: 120vw;
+      }
+      @include bm1 {
+        height: 122vw;
+      }
+
+      @include bm0 {
+        height: 125vw;
+      }
+    }
+  }
+
+  .quick-add {
+    position: absolute;
+    bottom: -50px;
+  }
+  @include computer {
+    #recent-items .slick-list,
+    #featured-items .slick-list {
+      padding-bottom: 60px;
+    }
+    .slider.products button.slick-arrow {
+      top: 28%;
+    }
+  }
+}

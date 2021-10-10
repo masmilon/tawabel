@@ -1,0 +1,26 @@
+// Media Query
+@import "./sass/global/media-query";
+
+@import "./sass/global/variables";
+@import "./sass/global/fonts";
+
+// Global
+@import "./sass/global/button"; // Don't use for First loading
+@import "./sass/global/product-entry"; // Don't use for First loading
+
+// Homepage
+@import "./sass/homepage/typhography";
+@import "./sass/homepage/header";
+@import "./sass/homepage/slide";
+@import "./sass/homepage/instagram";
+@import "./sass/homepage/doors";
+@import "./sass/homepage/products_slide"; // Don't use for First loading
+@import "./sass/homepage/products_inside_elements"; // Don't use for First loading
+@import "./sass/homepage/testimonial"; // Don't use for First loading
+@import "./sass/homepage/footer"; // Don't use for First loading
+
+// All Products
+@import "./sass/allProducts/products_box"; // Don't use for First loading
+
+@import "./sass/script/script-style"; // Don't use for First loading
+@import "./sass/test"; // Don't use for First loading

@@ -1,0 +1,44 @@
+.home {
+  #clients-testimonials .block-title {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .slider.clients .slick-list {
+    min-height: 0;
+  }
+  .slider.brands ul.slick-dots,
+  .slider.clients ul.slick-dots {
+    margin-top: -3px;
+  }
+  .client-entry.client-slide {
+    border-radius: 8px;
+    min-height: 150px;
+    outline: none;
+    padding: 10px;
+    background: white;
+    background-size: 40%;
+    text-align: center;
+    border-bottom: 3px solid $color-main-dark;
+  }
+
+  .client-entry.client-slide p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+  }
+
+  .client-entry.client-slide h1,
+  .client-entry.client-slide h4 {
+    font-family: inherit;
+    font-size: 1rem;
+    text-align: center;
+    border-top: 1px solid $color-main-dark;
+    padding-top: 7px;
+  }
+
+  .client-entry.client-slide h1,
+  .client-entry.client-slide h4 {
+    text-align: center;
+  }
+}
