@@ -1,0 +1,15 @@
+@include mobile {
+  .single-entry.single-page .product-details,
+  .single-entry .product-details .product-title {
+    text-align: center;
+  }
+
+  .product-review {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .single-entry .product-details p {
+    text-align: center !important;
+  }
+}

@@ -56,13 +56,13 @@ h5 {
 }
 
 .product-entry > div.entry-meta .entry-price span {
-  font-family: "Almarai", "Cairo", "Effra-R", sans-serif;
+  font-family: "Almarai", "Cairo", "Effra-R", sans-serif !important;
   font-weight: 600;
 }
 
 .product-entry > div.entry-meta .entry-price span.old,
 .product-entry > div.entry-meta small {
-  font-family: "Almarai", "Cairo", "Effra-R", sans-serif;
+  font-family: "Almarai", "Cairo", "Effra-R", sans-serif !important;
   font-weight: 400;
 }
 
@@ -863,6 +863,25 @@ main.home .quick-add {
 @media screen and (max-width: 489px) and (max-width: 575px) {
   .products-container .products-archive-container .discount:before {
     top: 65vw;
+  }
+}
+
+@media screen and (max-width: 489px) {
+  .single-entry.single-page .product-details,
+  .single-entry .product-details .product-title {
+    text-align: center;
+  }
+  .product-review {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .single-entry .product-details p {
+    text-align: center !important;
   }
 }
 
