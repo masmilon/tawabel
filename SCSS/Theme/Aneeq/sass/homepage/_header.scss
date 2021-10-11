@@ -11,7 +11,7 @@
     height: 260% !important;
     bottom: -26px !important;
     position: absolute !important;
-    right: 65px !important;
+    // right: 65px !important;
 
     @include computer {
       height: 165% !important;
@@ -28,7 +28,7 @@
   .logo-img-unviel-new {
     height: 115% !important;
     bottom: -3px !important;
-    right: 95px !important;
+    // right: 95px !important;
 
     @include computer {
       height: 65% !important;

@@ -44,10 +44,11 @@
   }
 
   .section-about-us h2 {
-    color: $color-main-dark;
+    color: $color-white;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
+
   .section-about-us p {
     color: $color-secondary-light;
     line-height: 1.8;
@@ -64,6 +65,7 @@
   .social-links li a i {
     color: $color-white !important;
   }
+
   .payment-links li a[title="mada"]::before {
     content: "";
     background-color: white;

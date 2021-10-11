@@ -60,7 +60,8 @@ h5 {
   font-weight: 600;
 }
 
-.product-entry > div.entry-meta .entry-price span.old {
+.product-entry > div.entry-meta .entry-price span.old,
+.product-entry > div.entry-meta small {
   font-family: "Almarai", "Cairo", "Effra-R", sans-serif;
   font-weight: 400;
 }
@@ -153,7 +154,7 @@ h5 {
 @media screen and (max-width: 489px) {
   .product-entry::after {
     content: "";
-    background-color: #e3e5e9;
+    background-color: white;
     position: absolute;
     top: 0;
     left: -5px;
@@ -222,7 +223,7 @@ h5 {
 
 .has-subtitle h2,
 .has-subtitle h1 {
-  color: black;
+  color: #906d3a;
   font-weight: 700;
   text-align: center;
   font-size: 1.5rem;
@@ -239,7 +240,6 @@ h5 {
     height: 260% !important;
     bottom: -26px !important;
     position: absolute !important;
-    right: 65px !important;
   }
 }
 
@@ -257,7 +257,6 @@ h5 {
   .logo-img-unviel-new {
     height: 115% !important;
     bottom: -3px !important;
-    right: 95px !important;
   }
 }
 
@@ -758,9 +757,9 @@ main.home .quick-add {
     border-radius: 0;
   }
   .section-about-us h2 {
-    color: black;
+    color: white;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
   .section-about-us p {
     color: #cba876;
@@ -791,6 +790,16 @@ main.home .quick-add {
     height: 20px;
     max-width: unset;
   }
+}
+
+@media screen and (max-width: 489px) {
+  .block.bg {
+    background-color: white;
+  }
+}
+
+.product-entry > div.entry-meta small {
+  color: #076e00 !important;
 }
 
 .products-container .filter-buttons-container {

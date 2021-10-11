@@ -1,10 +1,5 @@
-.content-container {
-  background-color: $color-bg;
-}
-
-.block.bg {
-  background-color: $color-bg;
-}
-.page-container {
-  background-color: $color-bg;
+@include mobile {
+  .block.bg {
+    background-color: $color-white;
+  }
 }

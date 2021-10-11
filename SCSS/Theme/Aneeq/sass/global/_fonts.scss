@@ -42,7 +42,8 @@ h5 {
   font-weight: 600;
 }
 
-.product-entry > div.entry-meta .entry-price span.old {
+.product-entry > div.entry-meta .entry-price span.old,
+.product-entry > div.entry-meta small {
   font-family: $myFonts;
   font-weight: 400;
 }
