@@ -1,3 +1,23 @@
+/*
+computer: 490+
+mobile: 489-
+bm8 : 1200-up
+bm7 : 993-1199 // 4 items in a row start from here
+bm6 : 768-990 // 4 items in a row start from here
+bm 5-7: 767 - 740 - Problem
+bm 5-6: 739 - 720 - Problem
+bm 5-5: 719 - 700 - Problem
+bm 5-4: 699 - 680 - Problem
+bm 5-3: 679 - 660 - Problem
+bm 5-2: 659 - 640 - Problem
+bm 5-1: 639 - 620 - Problem
+bm 5: 490 - 767 - Problem
+bm4 : 440-489
+bm3 : 400-439
+bm2 : 370-399
+bm1 : 320-369
+bm0 : 300-319
+*/
 @import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
 html,
 body,
@@ -12,3 +32,119 @@ h5,
 .btn {
   font-family: "Almarai", "Cairo", "Effra-R", sans-serif;
 }
+
+@media screen and (max-width: 489px) {
+  .sections-title {
+    color: #906d3a !important;
+  }
+}
+
+@media screen and (max-width: 489px) {
+  .zid-item .producttitle {
+    font-size: 22px;
+    color: black !important;
+    font-weight: 600 !important;
+    text-align: center;
+  }
+  .zid-item .price {
+    text-align: center;
+    direction: rtl;
+  }
+  .zid-item .options {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 489px) {
+  .z-page-container {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 489px) {
+  .logo-bar b {
+    display: none;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .navbar.navbar-sticky {
+    -webkit-box-shadow: 0 4px 3px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 3px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 20px 20px;
+    background: #906d3a;
+    background: linear-gradient(320deg, #a28255 45%, #906d3a 0%);
+  }
+  .header .search-bar .results,
+  .header .search-bar input {
+    border: 1px solid #cba876;
+  }
+  .icon-search:before {
+    content: "\e90a";
+    color: #cba876;
+  }
+  .search-bar input {
+    line-height: 35px;
+    border-radius: 15px;
+  }
+  .icon-local_grocery_store:before,
+  .icon-menu:before {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 489px) {
+  .hero-slider .slide {
+    display: block;
+    width: 100%;
+    height: 175px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    width: 95% !important;
+    margin: 0 auto;
+    border: 2px solid #906d3a;
+    border-radius: 15px;
+  }
+  .slider-hero-slider .slick-slide {
+    height: 175px;
+  }
+}
+
+@media screen and (max-width: 489px) {
+  .section-promo-image {
+    background-size: contain !important;
+  }
+  #promo-image-button {
+    height: 38px;
+    line-height: 35px;
+    margin-top: 10px;
+    padding: 0 20px;
+    border-radius: 10px;
+  }
+  #promo-image h2 {
+    padding-top: 15px;
+  }
+  #promo-image p:last-child {
+    margin: 0 0 40px !important;
+  }
+}
+
+@media screen and (max-width: 489px) {
+  .section-store-description {
+    background: #906d3a;
+    background: linear-gradient(250deg, #a28255 50%, #906d3a 0%);
+  }
+}
+
+@media screen and (max-width: 489px) {
+  #featured {
+    padding: 27px 0px 0 0;
+    background: rgba(235, 235, 235, 0.2);
+    margin: 17px 10px;
+    border-radius: 20px;
+  }
+}
+/*# sourceMappingURL=theme.css.map */

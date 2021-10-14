@@ -15,3 +15,9 @@ h5,
 .btn {
   font-family: $myFonts;
 }
+
+@include mobile {
+  .sections-title {
+    color: $color-main-light !important;
+  }
+}

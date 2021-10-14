@@ -9,10 +9,13 @@
 @import "./sass/global/product-entry"; // Don't use for First loading
 
 // Homepage
+@import "./sass/homepage/body";
 @import "./sass/homepage/typhography";
 @import "./sass/homepage/header";
 @import "./sass/homepage/slide";
 @import "./sass/homepage/instagram";
+@import "./sass/homepage/lightener";
+@import "./sass/global/product_section";
 @import "./sass/homepage/doors";
 @import "./sass/homepage/products_slide"; // Don't use for First loading
 @import "./sass/homepage/products_inside_elements"; // Don't use for First loading

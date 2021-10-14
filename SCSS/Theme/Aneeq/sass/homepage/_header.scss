@@ -1,2 +1,40 @@
 @include mobile {
+  .logo-bar b {
+    display: none;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .navbar.navbar-sticky {
+    box-shadow: 0 4px 3px 0px $background-color-transparent;
+    border-radius: 0 0 20px 20px;
+    background: $color-main-light;
+    background: linear-gradient(
+      320deg,
+      rgba($color-secondary-dark, 1) 45%,
+      rgba($color-main-light, 1) 0%
+    );
+  }
+
+  //   Search Bar
+  .header .search-bar .results,
+  .header .search-bar input {
+    border: 1px solid $color-secondary-light;
+  }
+
+  .icon-search:before {
+    content: "\e90a";
+    color: $color-secondary-light;
+  }
+
+  .search-bar input {
+    line-height: 35px;
+    border-radius: 15px;
+  }
+
+  // Icons
+  .icon-local_grocery_store:before,
+  .icon-menu:before {
+    color: $color-white;
+  }
 }

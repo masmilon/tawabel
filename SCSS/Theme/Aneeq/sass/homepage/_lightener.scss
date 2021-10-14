@@ -1,0 +1,10 @@
+@include mobile {
+  .section-store-description {
+    background: $color-main-light;
+    background: linear-gradient(
+      250deg,
+      rgba($color-secondary-dark, 1) 50%,
+      rgba($color-main-light, 1) 0%
+    );
+  }
+}

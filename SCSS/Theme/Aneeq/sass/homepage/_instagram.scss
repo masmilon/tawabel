@@ -1,2 +1,21 @@
 @include mobile {
+  .section-promo-image {
+    background-size: contain !important;
+  }
+
+  #promo-image-button {
+    height: 38px;
+    line-height: 35px;
+    margin-top: 10px;
+    padding: 0 20px;
+    border-radius: 10px;
+  }
+
+  #promo-image h2 {
+    padding-top: 15px;
+  }
+
+  #promo-image p:last-child {
+    margin: 0 0 40px !important;
+  }
 }
