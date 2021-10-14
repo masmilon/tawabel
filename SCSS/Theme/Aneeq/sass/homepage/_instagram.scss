@@ -1,27 +1,2 @@
 @include mobile {
-  .home {
-    .ad-bl {
-      border-radius: 10px;
-      width: 93%;
-      margin: 0 auto 20px auto;
-      padding: 15px;
-    }
-
-    @include computer {
-      width: 75%;
-    }
-  }
-
-  .home {
-    .ad-bl {
-      padding: 0px;
-      margin: 0 auto 20px auto;
-      box-shadow: $shadow-2;
-    }
-    .ad-bl .container .btn {
-      margin: 20px auto 23px auto;
-      min-width: 100px;
-      min-height: 19px;
-    }
-  }
 }
