@@ -1,4 +1,21 @@
 @include mobile {
+  .logo-bar img {
+    width: 27px;
+    height: 27px;
+    margin: 6px 7px -3px 8px;
+  }
+
+  .logo-bar ::before {
+    content: "";
+    height: 40px;
+    width: 40px;
+    background-image: url("https://media.zid.store/cdn-cgi/image/f=auto/https://media.zid.store/2db691b2-5c13-4682-bf0a-6ea8160a5687/963225d1-2042-4e0c-ba44-f1ca0a4a5ec0.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: absolute;
+  }
+
   .logo-bar b {
     display: none;
     font-size: 2rem;
