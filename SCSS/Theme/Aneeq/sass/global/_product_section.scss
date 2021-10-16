@@ -23,6 +23,9 @@
     border-top-right-radius: 0px;
     height: 45px;
     background-color: $color-main-light !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .zid-item .panel-body img {

@@ -1,7 +1,7 @@
 @include mobile {
   .zid-item .producttitle {
     font-size: 22px;
-    color: $color-main-dark !important;
+    color: $color-secondary-dark !important;
     font-weight: 600 !important;
     text-align: center;
   }
@@ -9,6 +9,7 @@
   .zid-item .price {
     text-align: center;
     direction: rtl;
+    color: $color-secondary-dark !important;
   }
 
   .zid-item .options {

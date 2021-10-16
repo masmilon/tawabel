@@ -1,4 +1,21 @@
-.home {
-  @include mobile {
+@include mobile {
+  .section-featured-categories .slick-track {
+    transform: none !important;
+    width: 500px !important;
+    transition: unset !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .section-featured-categories .slick-arrow {
+    display: none !important;
+  }
+
+  .zid-item .cattitle {
+    font-size: 19px !important;
+    font-weight: 700 !important;
+    color: $color-secondary-dark !important;
+    margin-bottom: 0 !important;
   }
 }
