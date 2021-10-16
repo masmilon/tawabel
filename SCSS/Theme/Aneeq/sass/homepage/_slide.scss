@@ -1,19 +1,21 @@
-@include mobile {
-  .hero-slider .slide {
-    display: block;
-    width: 100%;
-    height: 175px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex !important;
-    width: 95% !important;
-    margin: 0 auto;
-    border: 2px solid $color-main-light;
-    border-radius: 15px;
-  }
-
-  .slider-hero-slider .slick-slide {
-    height: 175px;
-  }
+// @include mobile {
+.slider-hero-slider .slick-slide {
+  height: 65vw;
 }
+.slider-hero-slider .slick-slide > div {
+  height: inherit;
+}
+.hero-slider .slide {
+  display: block;
+  width: 100%;
+  height: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex !important;
+  width: 95% !important;
+  margin: 0 auto;
+  border: 2px solid $color-main-light;
+  border-radius: 15px;
+}
+// }
