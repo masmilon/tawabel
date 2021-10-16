@@ -36,21 +36,21 @@ h5,
 
 @media screen and (max-width: 489px) {
   .sections-title {
-    color: #906d3a !important;
+    color: #bc9961 !important;
   }
 }
 
 @media screen and (max-width: 489px) {
   .zid-item .producttitle {
     font-size: 22px;
-    color: #a28255 !important;
+    color: #cdaa73 !important;
     font-weight: 600 !important;
     text-align: center;
   }
   .zid-item .price {
     text-align: center;
     direction: rtl;
-    color: #a28255 !important;
+    color: #cdaa73 !important;
   }
   .zid-item .options {
     text-align: center;
@@ -74,16 +74,16 @@ h5,
     -webkit-box-shadow: 0 4px 3px 0px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 3px 0px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 20px 20px;
-    background: #906d3a;
-    background: linear-gradient(320deg, #a28255 45%, #906d3a 0%);
+    background: #bc9961;
+    background: linear-gradient(320deg, #cdaa73 45%, #bc9961 0%);
   }
   .header .search-bar .results,
   .header .search-bar input {
-    border: 1px solid #cba876;
+    border: 1px solid #dac3a0;
   }
   .icon-search:before {
     content: "\e90a";
-    color: #cba876;
+    color: #dac3a0;
   }
   .search-bar input {
     line-height: 35px;
@@ -115,7 +115,7 @@ h5,
   display: flex !important;
   width: 95% !important;
   margin: 0 auto;
-  border: 2px solid #906d3a;
+  border: 2px solid #bc9961;
   border-radius: 15px;
 }
 
@@ -131,8 +131,8 @@ h5,
     font-weight: 600;
     border-radius: 10px;
     background-color: white !important;
-    color: #a28255 !important;
-    border: 1.5px ​solid #a28255 !important;
+    color: #cdaa73 !important;
+    border: 1.5px ​solid #cdaa73 !important;
   }
   #promo-image h2 {
     padding-top: 15px;
@@ -144,8 +144,8 @@ h5,
 
 @media screen and (max-width: 489px) {
   .section-store-description {
-    background: #906d3a;
-    background: linear-gradient(250deg, #a28255 50%, #906d3a 0%);
+    background: #bc9961;
+    background: linear-gradient(250deg, #cdaa73 50%, #bc9961 0%);
   }
 }
 
@@ -171,7 +171,7 @@ h5,
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     height: 45px;
-    background-color: #906d3a !important;
+    background-color: #cdaa73 !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -219,7 +219,7 @@ h5,
   .zid-item .cattitle {
     font-size: 19px !important;
     font-weight: 700 !important;
-    color: #a28255 !important;
+    color: #cdaa73 !important;
     margin-bottom: 0 !important;
   }
 }
@@ -232,7 +232,7 @@ h5,
   }
   .section-about-us h1 {
     font-size: 21px;
-    color: #a28255;
+    color: #cdaa73;
   }
   .section-about-us p {
     text-align: center;
@@ -265,7 +265,7 @@ h5,
   }
   .z-footer {
     border-radius: 30px 30px 0 0;
-    border-top: 5px solid #a28255;
+    border-top: 5px solid #cdaa73;
   }
   .z-footer .row div:last-child {
     display: -webkit-box;
