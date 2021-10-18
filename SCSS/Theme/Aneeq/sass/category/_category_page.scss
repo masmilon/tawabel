@@ -1,0 +1,25 @@
+@include mobile {
+  .cover-highlighted-section {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .cover-title {
+    font-size: 27px;
+    font-weight: 600;
+  }
+
+  .cover-description {
+    padding: 0 15px;
+  }
+
+  .cover-highlighted-section {
+    padding-top: 1.5em;
+
+    h1 {
+      margin-bottom: 10px;
+    }
+  }
+
+  .featured-image {
+    height: 150px !important;
+  }
+}

@@ -1,2 +1,117 @@
 @include mobile {
+  .product-view-img {
+    border-radius: 10px;
+  }
+
+  .fw-section {
+    .product-title {
+      font-size: 25px;
+      margin-top: 15px;
+      font-weight: 600;
+      color: $color-secondary-dark;
+    }
+
+    #product-price {
+      font-weight: 600 !important;
+      color: $color-sucess-light !important;
+    }
+
+    .quantity-select-div label {
+      text-align: center !important;
+    }
+
+    .product-meta .product-sku:last-of-type span {
+      font-weight: 600;
+      color: $color-main-light !important;
+      font-size: 20px;
+    }
+
+    // Product code
+    .product-meta .product-sku:first-of-type {
+      display: none;
+    }
+    .product-meta {
+      display: none;
+    }
+
+    .product-meta + div {
+      margin-top: -10px;
+    }
+
+    .product-tools .add-to-cart-form {
+      justify-content: center;
+      display: flex;
+      align-items: end;
+    }
+
+    .quantity-select-div {
+      display: flex !important;
+
+      label {
+        margin-left: 6px;
+        margin-top: 6px;
+      }
+    }
+
+    #quantity-select {
+      height: 36px !important;
+      min-width: 100px !important;
+      margin-bottom: 8px;
+    }
+
+    .form-element::before {
+      display: none;
+    }
+
+    .product-share {
+      margin-top: 10px;
+    }
+  }
+
+  // Bottom of product share
+  #description-options-section {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .nav-tabs {
+    margin-bottom: 11px;
+    margin-top: -15px !important;
+  }
+  #description-tab {
+    text-align: center !important;
+
+    * {
+      font-family: $myFonts;
+      background: none !important;
+    }
+
+    h1:first-child * {
+      margin-bottom: 0 !important;
+      color: $color-zid-purple !important;
+      font-weight: 600;
+    }
+
+    h2:first-of-type * {
+      color: $color-main-dark !important;
+      font-size: 20px !important;
+      font-weight: 500 !important;
+    }
+
+    .nav-tabs > li > a {
+      padding: 5px 20px;
+      margin-top: 10px;
+    }
+  }
+  .sold_products_count {
+    margin-bottom: 15px !important;
+  }
+
+  .z-product-card {
+    margin-bottom: 25px;
+  }
+
+  .z-product-view section:last-of-type {
+    padding-bottom: 0 !important;
+  }
 }
