@@ -6,6 +6,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 5px;
+    display: grid !important;
+    grid-template-columns: auto auto auto auto !important;
   }
 
   .section-featured-categories .slick-arrow {
@@ -13,9 +16,28 @@
   }
 
   .zid-item .cattitle {
-    font-size: 19px !important;
+    font-size: 15px !important;
     font-weight: 700 !important;
     color: $color-secondary-dark !important;
     margin-bottom: 0 !important;
+  }
+
+  .zid-category .product-category-img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .zid-category .panel-body,
+  .zid-category .slick-slide {
+    width: 60px !important;
+  }
+
+  .zid-category .slick-list > ::before {
+    display: none !important;
+  }
+
+  .zid-category .slick-list {
+    overflow: visible;
+    display: flex !important;
   }
 }
