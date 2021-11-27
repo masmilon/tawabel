@@ -6,43 +6,43 @@
 }
 
 @include mobile {
-  .product-card-wrapper .counter .input-group span,
-  .product-card-wrapper .counter .input-group input {
+  .counter .input-group span,
+  .counter .input-group input {
     display: flex !important;
   }
-  .product-card-wrapper {
-    .card-body {
-      * {
-        font-size: 15px;
-      }
-      .card-price {
-        flex-direction: row !important;
-        justify-content: space-around;
-      }
-      .multiple-choices > a {
-        height: 30px !important;
-        padding: 0 !important;
-      }
-      .input-group > .form-control:not(:last-child):not(:first-child) {
-        height: 31px;
-        font-size: 20px;
-      }
-      .counter .input-group .btn-primary {
-        margin-right: 0 !important;
-        width: 100%;
-        height: 30px;
-        margin-top: 5px;
-        background-color: $color-primary;
-        color: white;
-        border-color: $color-primary;
-        padding: 0;
-      }
 
-      .counter {
-        margin: 10px 0 !important;
-      }
+  .card-body {
+    * {
+      font-size: 15px;
+    }
+    .card-price {
+      flex-direction: row !important;
+      justify-content: space-around;
+    }
+    .multiple-choices > a {
+      height: 30px !important;
+      padding: 0 !important;
+    }
+    .input-group > .form-control:not(:last-child):not(:first-child) {
+      height: 31px;
+      font-size: 20px;
+    }
+    .counter .input-group .btn-primary {
+      margin-right: 0 !important;
+      width: 100%;
+      height: 30px;
+      margin-top: 5px;
+      background-color: $color-primary;
+      color: white;
+      border-color: $color-primary;
+      padding: 0;
+    }
+
+    .counter {
+      margin: 10px 0 !important;
     }
   }
+
   .products-slider .slick-control {
     top: calc(24% - 25px);
     background: rgba(255, 255, 255, 0.7);
