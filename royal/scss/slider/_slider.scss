@@ -1,0 +1,9 @@
+.slick-slide > div ::after {
+  display: none;
+}
+
+@include mobile {
+  .home-slider-item {
+    min-height: 185px !important;
+  }
+}

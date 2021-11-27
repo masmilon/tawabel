@@ -1,0 +1,21 @@
+.categories-section .container {
+  display: flex;
+  flex-direction: column;
+
+  .section-title ~ div {
+    justify-content: center;
+  }
+
+  @include mobile {
+    .section-title {
+      margin: 25px auto;
+      font-size: 20px;
+      font-weight: 800 !important;
+    }
+
+    .category-item h3 {
+      font-size: 15px !important;
+      font-weight: 600 !important;
+    }
+  }
+}

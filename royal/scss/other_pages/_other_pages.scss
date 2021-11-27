@@ -1,0 +1,19 @@
+@include mobile {
+  .main-sections-content {
+    .top-header-bg {
+      min-height: 130px !important;
+    }
+    .top-header-bg:after {
+      display: none !important;
+    }
+  }
+
+  // Pagination
+  .page-item {
+    border: 1px solid $color-primary;
+  }
+
+  .page-link {
+    margin: 0 !important;
+  }
+}

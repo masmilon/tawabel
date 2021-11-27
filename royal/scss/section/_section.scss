@@ -1,0 +1,45 @@
+.products > .container {
+  display: flex !important;
+  flex-direction: column !important;
+
+  .section-title {
+    margin: 25px auto !important;
+
+    h2,
+    a {
+      font-size: 20px;
+      font-weight: 800 !important;
+    }
+  }
+}
+
+@include mobile {
+  .products > .container {
+    .section-title {
+      font-size: 20px;
+      font-weight: 800 !important;
+      margin: 0 auto !important;
+    }
+  }
+  .categories-section .section-title h2 {
+    font-size: 20px;
+    font-weight: 800 !important;
+  }
+
+  .categories-section .row {
+    display: grid !important;
+    grid-template-columns: auto auto;
+
+    .col-6 {
+      max-width: 100% !important;
+    }
+  }
+  .category-item img {
+    height: 100% !important;
+    width: 125px;
+  }
+
+  .categories-section {
+    margin-bottom: 25px;
+  }
+}

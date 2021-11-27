@@ -20,12 +20,19 @@ h5,
 }
 
 .categories-section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .categories-section .container .section-title ~ div {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 489px) {
@@ -43,30 +50,34 @@ h5,
 .card-img-top {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 0px !important;
 }
 
 @media screen and (max-width: 489px) {
   .product-card-wrapper .counter .input-group span,
   .product-card-wrapper .counter .input-group input {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
     display: flex !important;
   }
   .product-card-wrapper .card-body * {
     font-size: 15px;
   }
   .product-card-wrapper .card-body .card-price {
-    flex-direction: row !important;
-    justify-content: space-around;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .product-card-wrapper .card-body .multiple-choices > a {
     height: 30px !important;
     padding: 0 !important;
   }
-  .product-card-wrapper
-    .card-body
-    .input-group
-    > .form-control:not(:last-child):not(:first-child) {
+  .product-card-wrapper .card-body .input-group > .form-control:not(:last-child):not(:first-child) {
     height: 31px;
     font-size: 20px;
   }
@@ -95,8 +106,13 @@ h5,
 }
 
 .products > .container {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
   display: flex !important;
-  flex-direction: column !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
 }
 
 .products > .container .section-title {
@@ -120,8 +136,10 @@ h5,
     font-weight: 800 !important;
   }
   .categories-section .row {
+    display: -ms-grid !important;
     display: grid !important;
-    grid-template-columns: auto auto;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
   }
   .categories-section .row .col-6 {
     max-width: 100% !important;
