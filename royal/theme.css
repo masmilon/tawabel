@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+html,
+body,
+nav.nav.main > ul > li > a,
+.block-title h1,
+.block-title h2,
+h1,
+h2,
+h3,
+h4,
+h5,
+.btn {
+  font-family: "Almarai", "Cairo", "Effra-R", sans-serif;
+}
+
+@media screen and (max-width: 489px) {
+  .navbar-brand > img {
+    max-width: 55%;
+  }
+}
+
+.categories-section .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.categories-section .container .section-title ~ div {
+  justify-content: center;
+}
+
+@media screen and (max-width: 489px) {
+  .categories-section .container .section-title {
+    margin: 25px auto;
+    font-size: 20px;
+    font-weight: 800 !important;
+  }
+  .categories-section .container .category-item h3 {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+  }
+}
+
+.card-img-top {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0px !important;
+}
+
+@media screen and (max-width: 489px) {
+  .product-card-wrapper .counter .input-group span,
+  .product-card-wrapper .counter .input-group input {
+    display: flex !important;
+  }
+  .product-card-wrapper .card-body * {
+    font-size: 15px;
+  }
+  .product-card-wrapper .card-body .card-price {
+    flex-direction: row !important;
+    justify-content: space-around;
+  }
+  .product-card-wrapper .card-body .multiple-choices > a {
+    height: 30px !important;
+    padding: 0 !important;
+  }
+  .product-card-wrapper
+    .card-body
+    .input-group
+    > .form-control:not(:last-child):not(:first-child) {
+    height: 31px;
+    font-size: 20px;
+  }
+  .product-card-wrapper .card-body .counter .input-group .btn-primary {
+    margin-right: 0 !important;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #cba876;
+    color: white;
+    border-color: #cba876;
+    padding: 0;
+  }
+  .product-card-wrapper .card-body .counter {
+    margin: 10px 0 !important;
+  }
+  .products-slider .slick-control {
+    top: calc(24% - 25px);
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
+  }
+  .products-slider .item,
+  #bunddle_offer_products .item {
+    padding: 7px;
+  }
+}
+
+.products > .container {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.products > .container .section-title {
+  margin: 25px auto !important;
+}
+
+.products > .container .section-title h2,
+.products > .container .section-title a {
+  font-size: 20px;
+  font-weight: 800 !important;
+}
+
+@media screen and (max-width: 489px) {
+  .products > .container .section-title {
+    font-size: 20px;
+    font-weight: 800 !important;
+    margin: 0 auto !important;
+  }
+  .categories-section .section-title h2 {
+    font-size: 20px;
+    font-weight: 800 !important;
+  }
+  .categories-section .row {
+    display: grid !important;
+    grid-template-columns: auto auto;
+  }
+  .categories-section .row .col-6 {
+    max-width: 100% !important;
+  }
+  .category-item img {
+    height: 100% !important;
+    width: 125px;
+  }
+  .categories-section {
+    margin-bottom: 25px;
+  }
+}
+
+.slick-slide > div ::after {
+  display: none;
+}
+
+@media screen and (max-width: 489px) {
+  .home-slider-item {
+    min-height: 185px !important;
+  }
+}
+
+@media screen and (max-width: 489px) {
+  footer * {
+    font-size: 15px !important;
+    text-align: center;
+  }
+  footer h5 {
+    font-size: 20px !important;
+    font-weight: 700;
+    padding: 5px;
+  }
+  footer h5:after {
+    width: 50% !important;
+    right: 25%;
+    height: 3px;
+    top: 100%;
+  }
+  .footer-img {
+    margin-top: 20px;
+    margin-bottom: 25px !important;
+  }
+  .footer-img img {
+    margin: 8px;
+  }
+}
+
+@media screen and (max-width: 489px) {
+  .main-sections-content .top-header-bg {
+    min-height: 130px !important;
+  }
+  .main-sections-content .top-header-bg:after {
+    display: none !important;
+  }
+  .page-item {
+    border: 1px solid #cba876;
+  }
+  .page-link {
+    margin: 0 !important;
+  }
+}
+/*# sourceMappingURL=theme.css.map */
