@@ -21,9 +21,11 @@
       margin: 0 auto !important;
     }
   }
-  .categories-section .section-title h2 {
+  .section-title h2,
+  .section-title h2 a {
     font-size: 20px;
     font-weight: 800 !important;
+    color: $color-primary !important;
   }
 
   .categories-section .row {
@@ -31,7 +33,11 @@
     grid-template-columns: auto auto;
 
     .col-6 {
+      padding: 7px !important;
       max-width: 100% !important;
+      h3 {
+        font-weight: 800 !important;
+      }
     }
   }
   .category-item img {

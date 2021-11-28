@@ -38,6 +38,10 @@ h5,
     font-size: 15px !important;
     font-weight: 600 !important;
   }
+  .categories-section .container .category-item img {
+    box-shadow: none !important;
+    width: 150px !important;
+  }
 }
 
 .card-img-top {
@@ -62,6 +66,7 @@ h5,
   .card-body .multiple-choices > a {
     height: 30px !important;
     padding: 0 !important;
+    font-size: 15px;
   }
   .card-body .input-group > .form-control:not(:last-child):not(:first-child) {
     height: 31px;
@@ -76,6 +81,7 @@ h5,
     color: white;
     border-color: #cba876;
     padding: 0;
+    font-size: 15px;
   }
   .card-body .counter {
     margin: 10px 0 !important;
@@ -112,16 +118,22 @@ h5,
     font-weight: 800 !important;
     margin: 0 auto !important;
   }
-  .categories-section .section-title h2 {
+  .section-title h2,
+  .section-title h2 a {
     font-size: 20px;
     font-weight: 800 !important;
+    color: #cba876 !important;
   }
   .categories-section .row {
     display: grid !important;
     grid-template-columns: auto auto;
   }
   .categories-section .row .col-6 {
+    padding: 7px !important;
     max-width: 100% !important;
+  }
+  .categories-section .row .col-6 h3 {
+    font-weight: 800 !important;
   }
   .category-item img {
     height: 100% !important;
@@ -169,7 +181,17 @@ h5,
 
 @media screen and (max-width: 489px) {
   .main-sections-content .top-header-bg {
+    justify-content: start !important;
+    padding-right: 30px;
     min-height: 130px !important;
+  }
+  .main-sections-content .top-header-bg li:first-of-type {
+    display: none;
+  }
+  .main-sections-content .top-header-bg li {
+    color: #cba876 !important;
+    font-size: 22px !important;
+    font-weight: 800;
   }
   .main-sections-content .top-header-bg:after {
     display: none !important;
