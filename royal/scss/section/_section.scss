@@ -40,6 +40,7 @@
       }
     }
   }
+
   .category-item img {
     height: 100% !important;
     width: 125px;
@@ -47,5 +48,20 @@
 
   .categories-section {
     margin-bottom: 25px;
+  }
+
+  .loadmore {
+    text-align: left;
+
+    a {
+      margin: 0 0 40px 5px;
+      min-height: 35px;
+      min-width: auto;
+      border-radius: 12px;
+      background: $color-primary;
+      color: white;
+      border: none;
+      font-size: 17px;
+    }
   }
 }
