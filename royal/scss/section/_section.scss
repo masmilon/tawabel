@@ -13,6 +13,19 @@
   }
 }
 
+.section-title h2,
+.section-title h2 a {
+  font-weight: 800 !important;
+  color: $color-primary !important;
+}
+
+@include desktop {
+  .section-title h2,
+  .section-title h2 a {
+    font-size: 25px !important;
+  }
+}
+
 @include mobile {
   .products > .container {
     .section-title {
@@ -24,8 +37,6 @@
   .section-title h2,
   .section-title h2 a {
     font-size: 20px;
-    font-weight: 800 !important;
-    color: $color-primary !important;
   }
 
   .categories-section .row {
@@ -50,18 +61,31 @@
     margin-bottom: 25px;
   }
 
-  .loadmore {
-    text-align: left;
-
-    a {
-      margin: 0 0 40px 5px;
-      min-height: 35px;
-      min-width: auto;
-      border-radius: 12px;
-      background: $color-primary;
-      color: white;
-      border: none;
-      font-size: 17px;
-    }
+  .loadmore a {
+    margin: 0 0 40px 5px;
+    min-height: 35px;
+    font-size: 17px;
   }
+}
+
+@include desktop {
+  .loadmore a {
+    padding: 0 3.5rem !important;
+    margin: -10px 0 0 12px;
+  }
+}
+.loadmore {
+  text-align: left;
+
+  a {
+    border-radius: 12px;
+    min-width: auto;
+    background: $color-primary;
+    color: white;
+    border: none;
+  }
+}
+
+.slick-dots {
+  bottom: -50px !important;
 }

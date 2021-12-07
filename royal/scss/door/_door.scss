@@ -24,4 +24,29 @@
       }
     }
   }
+
+  @include desktop {
+    .section-title ~ div {
+      gap: 30px;
+    }
+
+    .section-title {
+      margin: 35px auto;
+      font-size: 20px;
+      font-weight: 800 !important;
+    }
+
+    .category-item {
+      h3 {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+      }
+
+      img {
+        box-shadow: none !important;
+        width: 155px !important;
+        height: 155px !important;
+      }
+    }
+  }
 }
