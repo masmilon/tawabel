@@ -8,6 +8,12 @@
   }
 }
 
+@include desktop {
+  .top-slider {
+    padding: 45px 0;
+  }
+}
+
 .home-slider-item {
   a {
     width: 100%;

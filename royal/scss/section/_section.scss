@@ -22,7 +22,7 @@
 @include desktop {
   .section-title h2,
   .section-title h2 a {
-    font-size: 25px !important;
+    font-size: 30px !important;
   }
 }
 
@@ -70,8 +70,16 @@
 
 @include desktop {
   .loadmore a {
-    padding: 0 3.5rem !important;
-    margin: -10px 0 0 12px;
+    padding: 0 4.5rem !important;
+    margin: 5px 0 0 5px;
+  }
+
+  .categories-section .row .col-6 {
+    max-width: 100% !important;
+
+    h3 {
+      font-size: 22px !important;
+    }
   }
 }
 .loadmore {
@@ -87,5 +95,11 @@
 }
 
 .slick-dots {
-  bottom: -50px !important;
+  bottom: -70px !important;
+}
+
+@include desktop {
+  .products > .container .section-title {
+    margin: 70px auto 25px auto !important;
+  }
 }
