@@ -46,7 +46,7 @@
 }
 
 .products-slider .slick-control {
-  top: calc(24% - 25px);
+  // top: calc(24% - 25px);
   background: rgba(255, 255, 255, 0.7);
   border-radius: 25px;
 }
@@ -56,7 +56,21 @@
   padding: 7px;
 }
 
+@include mobile {
+  .products-slider .slick-control {
+    top: calc(24% - 25px);
+  }
+}
+
 @include desktop {
+  .products-slider .slick-control {
+    top: calc(24% - 0px);
+    height: 60px;
+    width: 60px;
+    z-index: 1000;
+    border-radius: 100px;
+  }
+
   .card-body {
     * {
       font-size: 22px !important;

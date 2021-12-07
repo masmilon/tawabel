@@ -32,5 +32,17 @@
 @include desktop {
   footer {
     margin-top: 150px;
+
+    li {
+      margin: 25px 0 !important;
+    }
+
+    .container .row {
+      justify-content: space-between;
+
+      div:nth-child(3) {
+        display: none;
+      }
+    }
   }
 }
