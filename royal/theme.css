@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
 html,
 body,
@@ -296,6 +297,22 @@ h5,
   color: none !important;
 }
 
+footer .row div:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+footer .row div:nth-child(1) div::before {
+  display: block;
+  content: "شارك تابع قيم صوتك مسموع على";
+  font-size: 16px;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+
+footer .row div:nth-child(1) i::before {
+  font-size: 20px;
+}
+
 @media screen and (max-width: 489px) {
   footer * {
     font-size: 15px !important;
@@ -305,6 +322,19 @@ h5,
     font-size: 20px !important;
     font-weight: 700;
     padding: 5px;
+  }
+  footer .row div:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  footer .row div:nth-child(1) div::before {
+    display: block;
+    content: "شارك تابع قيم صوتك مسموع على";
+    font-size: 16px;
+    font-weight: 800;
+    padding-bottom: 15px;
+  }
+  footer .row div:nth-child(1) i::before {
+    font-size: 20px;
   }
   footer h5:after {
     width: 50% !important;

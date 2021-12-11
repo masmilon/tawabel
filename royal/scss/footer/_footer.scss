@@ -1,3 +1,20 @@
+footer {
+  .row div:nth-child(1) {
+    div::before {
+      display: block;
+      content: "شارك تابع قيم صوتك مسموع على";
+      font-size: 16px;
+      font-weight: 800;
+      padding-bottom: 15px;
+    }
+
+    margin-bottom: 20px;
+    i::before {
+      font-size: 20px;
+    }
+  }
+}
+
 @include mobile {
   footer * {
     font-size: 15px !important;
@@ -9,6 +26,21 @@
       font-size: 20px !important;
       font-weight: 700;
       padding: 5px;
+    }
+
+    .row div:nth-child(1) {
+      div::before {
+        display: block;
+        content: "شارك تابع قيم صوتك مسموع على";
+        font-size: 16px;
+        font-weight: 800;
+        padding-bottom: 15px;
+      }
+
+      margin-bottom: 20px;
+      i::before {
+        font-size: 20px;
+      }
     }
   }
 
