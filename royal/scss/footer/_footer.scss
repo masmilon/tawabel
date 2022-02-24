@@ -1,4 +1,7 @@
-footer {
+footer,
+.copyrights {
+  background-color: $footer-color !important;
+  border-radius: 50px 50px 0 0;
   .row div:nth-child(1) {
     div::before {
       display: block;

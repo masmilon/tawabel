@@ -297,11 +297,19 @@ h5,
   color: none !important;
 }
 
-footer .row div:nth-child(1) {
+footer,
+.copyrights {
+  background-color: rgba(196, 225, 197, 0.3) !important;
+  border-radius: 50px 50px 0 0;
+}
+
+footer .row div:nth-child(1),
+.copyrights .row div:nth-child(1) {
   margin-bottom: 20px;
 }
 
-footer .row div:nth-child(1) div::before {
+footer .row div:nth-child(1) div::before,
+.copyrights .row div:nth-child(1) div::before {
   display: block;
   content: "شارك تابع قيم صوتك مسموع على";
   font-size: 16px;
@@ -309,7 +317,8 @@ footer .row div:nth-child(1) div::before {
   padding-bottom: 15px;
 }
 
-footer .row div:nth-child(1) i::before {
+footer .row div:nth-child(1) i::before,
+.copyrights .row div:nth-child(1) i::before {
   font-size: 20px;
 }
 
@@ -482,6 +491,17 @@ div#pagingInfo {
   }
   .product-info .description-tab * {
     font-size: 26px !important;
+  }
+}
+
+body {
+  background-image: url("https://media.zid.store/2db691b2-5c13-4682-bf0a-6ea8160a5687/6873a924-96a3-42e3-b374-6ebee2db3d26.jpg");
+  background-size: 500px;
+}
+
+@media screen and (max-width: 489px) {
+  body {
+    background-size: 400px;
   }
 }
 /*# sourceMappingURL=theme.css.map */

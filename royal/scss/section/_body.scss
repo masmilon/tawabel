@@ -1,0 +1,10 @@
+body {
+  background-image: url("https://media.zid.store/2db691b2-5c13-4682-bf0a-6ea8160a5687/6873a924-96a3-42e3-b374-6ebee2db3d26.jpg");
+  background-size: 500px;
+}
+
+@include mobile {
+  body {
+    background-size: 400px;
+  }
+}
