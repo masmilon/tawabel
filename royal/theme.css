@@ -26,14 +26,14 @@ h5,
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .categories-section .container .section-title ~ div {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 489px) {
@@ -48,7 +48,7 @@ h5,
   }
   .categories-section .container .category-item img {
     -webkit-box-shadow: none !important;
-    box-shadow: none !important;
+            box-shadow: none !important;
     width: 150px !important;
   }
 }
@@ -68,7 +68,7 @@ h5,
   }
   .categories-section .container .category-item img {
     -webkit-box-shadow: none !important;
-    box-shadow: none !important;
+            box-shadow: none !important;
     width: 155px !important;
     height: 155px !important;
   }
@@ -78,7 +78,7 @@ h5,
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border-radius: 0px !important;
 }
 
@@ -100,10 +100,10 @@ h5,
 .card-body .card-price {
   -webkit-box-orient: horizontal !important;
   -webkit-box-direction: normal !important;
-  -ms-flex-direction: row !important;
-  flex-direction: row !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
 }
 
 .card-body .multiple-choices > a {
@@ -186,8 +186,8 @@ h5,
   display: flex !important;
   -webkit-box-orient: vertical !important;
   -webkit-box-direction: normal !important;
-  -ms-flex-direction: column !important;
-  flex-direction: column !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
 }
 
 .products > .container .section-title {
@@ -227,7 +227,7 @@ h5,
     display: -ms-grid !important;
     display: grid !important;
     -ms-grid-columns: auto auto;
-    grid-template-columns: auto auto;
+        grid-template-columns: auto auto;
   }
   .categories-section .row .col-6 {
     padding: 7px !important;
@@ -307,11 +307,11 @@ h5,
   margin: 0;
   font-size: 0;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -396,8 +396,8 @@ footer .row div:nth-child(1) i::before,
   }
   footer .container .row {
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   footer .container .row div:nth-child(3) {
     display: none;
@@ -406,8 +406,8 @@ footer .row div:nth-child(1) i::before,
 
 .main-sections-content .top-header-bg {
   -webkit-box-pack: start !important;
-  -ms-flex-pack: start !important;
-  justify-content: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: start !important;
   padding-right: 30px;
   min-height: 130px !important;
 }
@@ -447,8 +447,8 @@ footer .row div:nth-child(1) i::before,
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .p-details h2 {
@@ -459,8 +459,8 @@ footer .row div:nth-child(1) i::before,
 
 .product-details .custome-label {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .product-details .at-share-btn-elements {
@@ -474,8 +474,8 @@ footer .row div:nth-child(1) i::before,
 
 .product-info .nav-tabs {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .product-info .description-tab h1 * {
@@ -515,8 +515,8 @@ div#pagingInfo {
   }
   .main-sections-content .add-to-cart-container {
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 35px !important;
   }
   .main-sections-content #product-quantity {

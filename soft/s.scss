@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+html,
+body,
+nav.nav.main > ul > li > a,
+.block-title h1,
+.block-title h2,
+h1,
+h2,
+h3,
+h4,
+h5,
+.btn {
+  font-family: "Almarai", "Cairo", "Effra-R", sans-serif;
+}
+
+body {
+  background-image: url("https://media.zid.store/2db691b2-5c13-4682-bf0a-6ea8160a5687/6873a924-96a3-42e3-b374-6ebee2db3d26.jpg");
+  background-size: 500px;
+}
+
+@media screen and (max-width: 489px) {
+  body {
+    background-size: 400px;
+  }
+}
+/*# sourceMappingURL=theme.css.map */
+
+$color-primary: #cba876;
+
+$color-on-primary: #265077;
+$color-secondary: #176d6a;
+$color-content: #606060;
+
+$font-title: "Changa", sans-serif;
+
+@mixin mobile {
+  @media screen and (max-width: 489px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 489px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 1023px) {
+    @content;
+  }
+}
+
+// Sliders
+
+.main-slider .slick-dots {
+  display: none !important;
+}
+
+.home > section.ss:first-child {
+  border-top: 5px solid $color-secondary;
+  border-bottom: 5px solid $color-secondary;
+}
+
+// Footer
+.footer {
+  padding: 15px 0;
+
+  .footer-theme-bg-primary {
+    background-color: $color-secondary;
+
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+
+    text-align: center;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-family: $font-title;
+    font-size: 1.2rem;
+  }
+
+  .store-section .social-icons {
+    justify-content: center;
+  }
+}
+
+// Sections
+.section-title {
+  font-family: $font-title !important;
+  color: $color-secondary !important;
+  text-align: center;
+}
+
+.section-padding-space {
+  padding-bottom: 20px !important;
+}
+
+.product-item .product-title {
+  font-weight: 900;
+}
+
+.product-item .product-price {
+  font-weight: 900 !important;
+  color: $color-on-primary !important;
+}
+
+// Header icons
+.icon-menu_open_black_24dp-1:before,
+.icon-search:before,
+.header-theme-icon-primary {
+  color: $color-on-primary;
+}
+
+.header-theme-bg-primary {
+  background-color: white;
+}
+
+.cart-badge {
+  width: 20px;
+  height: 20px;
+  font-size: 12px !important;
+}

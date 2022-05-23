@@ -1,0 +1,25 @@
+.footer {
+  padding: 15px 0;
+
+  .footer-theme-bg-primary {
+    background-color: $color-secondary;
+
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+
+    text-align: center;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-family: $font-title;
+    font-size: 1.2rem;
+  }
+
+  .store-section .social-icons {
+    justify-content: center;
+  }
+}

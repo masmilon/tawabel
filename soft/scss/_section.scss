@@ -1,0 +1,18 @@
+.section-title {
+  font-family: $font-title !important;
+  color: $color-secondary !important;
+  text-align: center;
+}
+
+.section-padding-space {
+  padding-bottom: 20px !important;
+}
+
+.product-item .product-title {
+  font-weight: 900;
+}
+
+.product-item .product-price {
+  font-weight: 900 !important;
+  color: $color-on-primary !important;
+}
