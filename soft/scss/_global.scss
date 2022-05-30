@@ -11,13 +11,13 @@ h3,
 h4,
 h5,
 .btn {
-  font-family: "Almarai", "Cairo", "Effra-R", sans-serif;
+  font-family: "Almarai", "Cairo", "Effra-R", sans-serif !important;
 }
 
-body {
-  background-image: url("https://media.zid.store/2db691b2-5c13-4682-bf0a-6ea8160a5687/6873a924-96a3-42e3-b374-6ebee2db3d26.jpg");
-  background-size: 500px;
-}
+// body {
+//   background-image: url("https://media.zid.store/2db691b2-5c13-4682-bf0a-6ea8160a5687/6873a924-96a3-42e3-b374-6ebee2db3d26.jpg");
+//   background-size: 500px;
+// }
 
 @media screen and (max-width: 489px) {
   body {
@@ -26,13 +26,13 @@ body {
 }
 /*# sourceMappingURL=theme.css.map */
 
-$color-primary: #cba876;
+$color-primary: #caa976;
 
-$color-on-primary: #265077;
-$color-secondary: #176d6a;
-$color-content: #606060;
+$color-on-primary: #caa976;
+$color-secondary: #caa976;
+$color-content: #caa976;
 
-$font-title: "Changa", sans-serif;
+$font-title: "Almarai", "Cairo", "Effra-R", sans-serif; //"Changa", sans-serif;
 
 @mixin mobile {
   @media screen and (max-width: 489px) {

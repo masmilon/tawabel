@@ -1,7 +1,8 @@
 .section-title {
   font-family: $font-title !important;
-  color: $color-secondary !important;
-  text-align: center;
+  color: $color-on-primary !important;
+  // text-align: right !important;
+  font-weight: 900;
 }
 
 .section-padding-space {
