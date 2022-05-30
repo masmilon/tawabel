@@ -10,12 +10,7 @@ h3,
 h4,
 h5,
 .btn {
-  font-family: "Almarai", "Cairo", "Effra-R", sans-serif;
-}
-
-body {
-  background-image: url("https://media.zid.store/2db691b2-5c13-4682-bf0a-6ea8160a5687/6873a924-96a3-42e3-b374-6ebee2db3d26.jpg");
-  background-size: 500px;
+  font-family: "Almarai", "Cairo", "Effra-R", sans-serif !important;
 }
 
 @media screen and (max-width: 489px) {
@@ -26,7 +21,7 @@ body {
 .icon-menu_open_black_24dp-1:before,
 .icon-search:before,
 .header-theme-icon-primary {
-  color: #265077;
+  color: #caa976;
 }
 
 .header-theme-bg-primary {
@@ -40,9 +35,9 @@ body {
 }
 
 .section-title {
-  font-family: "Changa", sans-serif !important;
-  color: #176d6a !important;
-  text-align: center;
+  font-family: "Almarai", "Cairo", "Effra-R", sans-serif !important;
+  color: #caa976 !important;
+  font-weight: 900;
 }
 
 .section-padding-space {
@@ -55,16 +50,11 @@ body {
 
 .product-item .product-price {
   font-weight: 900 !important;
-  color: #265077 !important;
+  color: #caa976 !important;
 }
 
 .main-slider .slick-dots {
   display: none !important;
-}
-
-.home > section.ss:first-child {
-  border-top: 5px solid #176d6a;
-  border-bottom: 5px solid #176d6a;
 }
 
 .footer {
@@ -72,7 +62,7 @@ body {
 }
 
 .footer .footer-theme-bg-primary {
-  background-color: #176d6a;
+  background-color: #caa976;
   border-top-right-radius: 20px !important;
   border-top-left-radius: 20px !important;
   text-align: center;
@@ -83,13 +73,11 @@ body {
 }
 
 .footer h1 {
-  font-family: "Changa", sans-serif;
+  font-family: "Almarai", "Cairo", "Effra-R", sans-serif;
   font-size: 1.2rem;
 }
 
 .footer .store-section .social-icons {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */
