@@ -17,3 +17,31 @@
   font-weight: 900 !important;
   color: $color-on-primary !important;
 }
+
+// Customer testimonial
+.rtl .testimonials-customer-name {
+  white-space: initial;
+  font-weight: 700;
+}
+
+.testimonials-customer-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.home {
+  &-products-section:first-child {
+    background-color: red !important;
+  }
+}
+
+.home-products-section:first-of-type {
+  padding-bottom: 0 !important;
+  margin-top: -25px;
+  margin-bottom: -15px;
+  text-align: center !important;
+
+  h1 {
+    margin-bottom: 0 !important;
+  }
+}

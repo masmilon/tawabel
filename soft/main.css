@@ -53,6 +53,31 @@ h5,
   color: #caa976 !important;
 }
 
+.rtl .testimonials-customer-name {
+  white-space: initial;
+  font-weight: 700;
+}
+
+.testimonials-customer-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.home-products-section:first-child {
+  background-color: red !important;
+}
+
+.home-products-section:first-of-type {
+  padding-bottom: 0 !important;
+  margin-top: -25px;
+  margin-bottom: -15px;
+  text-align: center !important;
+}
+
+.home-products-section:first-of-type h1 {
+  margin-bottom: 0 !important;
+}
+
 .main-slider .slick-dots {
   display: none !important;
 }
@@ -79,5 +104,9 @@ h5,
 
 .footer .store-section .social-icons {
   justify-content: center;
+}
+
+.footer h1 {
+  font-size: 1.4rem !important;
 }
 /*# sourceMappingURL=main.css.map */
