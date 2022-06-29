@@ -3,6 +3,7 @@
   color: $color-on-primary !important;
   // text-align: right !important;
   font-weight: 900;
+  font-size: 1.6rem !important;
 }
 
 .section-padding-space {
@@ -43,5 +44,36 @@
 
   h1 {
     margin-bottom: 0 !important;
+  }
+}
+
+.app-content .subTitle-detail {
+  background-color: $color-on-primary;
+
+  * {
+    color: white;
+  }
+
+  p {
+    font-weight: 400;
+  }
+
+  h1 {
+    font-weight: bold;
+  }
+}
+
+.category-products-display-more-section {
+  text-align: left !important;
+  margin-left: 29px;
+  margin-top: 2rem !important;
+
+  button.more-button,
+  a.more-button {
+    min-width: 90px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 2px solid #caa976;
+    padding: 3px;
   }
 }

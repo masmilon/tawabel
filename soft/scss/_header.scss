@@ -13,3 +13,36 @@
   height: 20px;
   font-size: 12px !important;
 }
+
+@include desktop {
+  // .header-theme-bg-primary * {
+  //   color: $color-secondary !important;
+  //   font-weight: bold;
+  // }
+
+  .cart-header-total {
+    margin-top: 20px;
+    color: $color-secondary !important;
+    font-weight: bold;
+  }
+
+  .account-lang-currency * {
+    color: $color-secondary !important;
+    font-weight: bold;
+  }
+
+  .gallery-section > .gallery {
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px !important;
+
+    .gallery-item {
+      max-width: 25% !important;
+      margin-top: 0 !important;
+    }
+  }
+
+  .slick-arrow {
+    top: 25% !important;
+  }
+}
