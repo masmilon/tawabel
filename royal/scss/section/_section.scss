@@ -57,14 +57,21 @@
     width: 125px;
   }
 
-  .categories-section {
-    margin-bottom: 25px;
+  .main-sections-content section:nth-of-type(4) {
+    margin-top: -32px !important;
   }
 
   .loadmore a {
     margin: 0 0 40px 5px;
     min-height: 35px;
     font-size: 17px;
+  }
+}
+
+.main-sections-content section:nth-of-type(4) {
+  div > div {
+    align-items: center;
+    justify-content: center;
   }
 }
 
